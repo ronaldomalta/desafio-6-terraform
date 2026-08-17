@@ -10,6 +10,10 @@ on:
       - main
 
 jobs:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0725f80acfa4b357f9a6b293af336466e497b07f
   sast:
     name: SAST
     runs-on: ubuntu-latest
@@ -41,7 +45,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
+<<<<<<< HEAD
           node-version: 24
+=======
+          node-version: 18
+>>>>>>> 0725f80acfa4b357f9a6b293af336466e497b07f
           cache: npm
 
       - name: Install dependencies
@@ -60,7 +68,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
+<<<<<<< HEAD
           node-version: 24
+=======
+          node-version: 18
+>>>>>>> 0725f80acfa4b357f9a6b293af336466e497b07f
           cache: npm
 
       - name: Install dependencies
@@ -82,7 +94,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
+<<<<<<< HEAD
           node-version: 24
+=======
+          node-version: 18
+>>>>>>> 0725f80acfa4b357f9a6b293af336466e497b07f
           cache: npm
 
       - name: Install dependencies
